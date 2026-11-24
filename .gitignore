@@ -1,0 +1,90 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!/.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Local data, caches, temporary files and credential exports
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.sqlite*
+*.db
+*.db-*
+*.dump
+*.backup
+*.sql.gz
+/pgdata/
+/tmp/
+*.tmp
+*.log
+*.log.*
+*.key
+*.crt
+*.p12
+*.pfx
+.pgpass
+.pg_service.conf
+.netrc
+.npmrc.local
+.aws/
+.ssh/
+credentials*.json
+service-account*.json
+client_secret*.json
+secrets/
+.envrc
+.direnv/
+.git-credentials
+*.p8
+*.pkcs12
+credentials*.csv
+credentials*.yaml
+credentials*.yml
+service_account*.json
+application_default_credentials.json
+/logs/
